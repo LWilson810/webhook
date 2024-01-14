@@ -12,5 +12,12 @@
     ],
     "env": {
       "NODE_ENV": "production"
-    }
+    },
+     "functions": {
+        "webhook/**/*.js": {
+          "runtime": "nodejs12.x",
+          "memory": 512
+        }
+      }
+
   }
