@@ -14,8 +14,8 @@
       "NODE_ENV": "production"
     },
      "functions": {
-        "webhook/**/*.js": {
-          "runtime": "nodejs12.x",
+        "webhook/index.js": {
+          "runtime": "nodejs18.x",
           "memory": 512
         }
       }
